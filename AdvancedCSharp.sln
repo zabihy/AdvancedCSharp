@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "performance", "performance"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyAccessorByILGenerator", "src\performance\PropertyAccessorByILGenerator\PropertyAccessorByILGenerator.csproj", "{AC04730E-8598-4A4B-8CFB-CC1F93D988D2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extensions", "extensions", "{9C6FD697-06CA-4FEC-B8FF-2424701443B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopularExtensions", "src\extensions\PopularExtensions\PopularExtensions.csproj", "{80C6FB9D-8922-4D88-A0AF-0B3CE6F1A803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{AC04730E-8598-4A4B-8CFB-CC1F93D988D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC04730E-8598-4A4B-8CFB-CC1F93D988D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC04730E-8598-4A4B-8CFB-CC1F93D988D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C6FB9D-8922-4D88-A0AF-0B3CE6F1A803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C6FB9D-8922-4D88-A0AF-0B3CE6F1A803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C6FB9D-8922-4D88-A0AF-0B3CE6F1A803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C6FB9D-8922-4D88-A0AF-0B3CE6F1A803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{40C08689-2D0F-468A-A6DF-7C891AEDB04B} = {E55DCD05-65E3-46BF-B8A9-8BE71F4549D8}
 		{AC04730E-8598-4A4B-8CFB-CC1F93D988D2} = {40C08689-2D0F-468A-A6DF-7C891AEDB04B}
+		{9C6FD697-06CA-4FEC-B8FF-2424701443B7} = {E55DCD05-65E3-46BF-B8A9-8BE71F4549D8}
+		{80C6FB9D-8922-4D88-A0AF-0B3CE6F1A803} = {9C6FD697-06CA-4FEC-B8FF-2424701443B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {96BA8643-731B-4CA7-BDB0-C43CF448E95A}
